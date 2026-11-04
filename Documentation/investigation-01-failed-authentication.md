@@ -63,3 +63,6 @@ These counts represent different search scopes and should not be treated as the 
 ## 6. MITRE ATT&CK Mapping
 
 - **Tactic:** Credential Access (TA000
+  
+## 7. Disclaimer
+  **Note on Event Counts:** The failed-authentication event count varies across the investigation because different SPL searches use different search scopes and aggregation methods. The focused investigation returned 8 events, the broader aggregation returned 11, and the dashboard displayed 12. These values represent results from their respective searches and should not be interpreted as a single identical event count.
